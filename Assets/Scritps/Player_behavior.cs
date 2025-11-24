@@ -15,22 +15,40 @@ public class Player_behavior : MonoBehaviour
      Inimigo é atravessável
      Ataque do inimigo é hitkill (se pá)
      
+     provavelmente a ordem de inimigo será em ordem de geração - fila (FIFO - First In First Out)
      
     */
+
+    [SerializeField]
     public float Speed;
 
-    private Rigidbody2D rb;
+    [SerializeField]
+    private Rigidbody2D playerRb;
+
+    [SerializeField]
+    private SpriteRenderer spriteRenderer;
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();     
+        playerRb = GetComponent<Rigidbody2D>();     
     }
 
-    // Update is called once per frame
     private void FixedUpdate()
     {
         Vector2 direction = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 
-        rb.linearVelocity = direction * Speed;
+        playerRb.linearVelocity = direction.normalized * Speed;
+
+    }
+
+    private void Update()
+    {
+        spriteUpdate();
+    }
+
+    private void spriteUpdate()
+    {
+        if (this.playerRb.linearVelocity.x > 0) this.spriteRenderer.flipX = false; // olhando pra direita
+        else if (this.playerRb.linearVelocity.x < 0) this.spriteRenderer.flipX = true; // olhando pra esquerda
     }
 }
