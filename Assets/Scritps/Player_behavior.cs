@@ -19,6 +19,13 @@ public class Player_behavior : MonoBehaviour
      
     */
 
+    public GameObject ataqueAcerto;     // Área de acerto do ataque
+    public Transform fist;             // De onde saí o soco (ah, jura?)
+    private bool punch;                  // Input do soco do ataque
+    public float punchVelocity;             // Velocidade do soco
+    private bool flipX = false;
+
+
     [SerializeField]
     public float Speed;
 
@@ -44,11 +51,24 @@ public class Player_behavior : MonoBehaviour
     private void Update()
     {
         spriteUpdate();
+
+        this.punch = Input.GetButtonDown("Jump");
     }
 
     private void spriteUpdate()
     {
         if (this.playerRb.linearVelocity.x > 0) this.spriteRenderer.flipX = false; // olhando pra direita
         else if (this.playerRb.linearVelocity.x < 0) this.spriteRenderer.flipX = true; // olhando pra esquerda
+    }
+
+    private void desferirSoco()
+    {
+        if(punch == true)
+        {
+            GameObject temp = Instantiate(ataqueAcerto);
+            temp.transform.position = fist.position;
+            temp.GetComponent<Rigidbody2D>().linearVelocity = new Vector2(punchVelocity, 0);
+            Destroy(temp.gameObject, 3f);
+        }
     }
 }
