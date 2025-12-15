@@ -1,0 +1,1677 @@
+fileFormatVersion: 2
+guid: b348e4d384a308f48aa35ae85cb83a45
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4554968898124129987
+    second: Lutador_beta_3.5_attack_0
+  - first:
+      213: -290151030942959392
+    second: Lutador_beta_3.5_attack_1
+  - first:
+      213: -2467942169090815889
+    second: Lutador_beta_3.5_attack_2
+  - first:
+      213: -9147050125351524035
+    second: Lutador_beta_3.5_attack_3
+  - first:
+      213: -4239267899452023944
+    second: Lutador_beta_3.5_attack_4
+  - first:
+      213: -5057749616395347308
+    second: Lutador_beta_3.5_attack_5
+  - first:
+      213: 2915045394826448081
+    second: Lutador_beta_3.5_attack_6
+  - first:
+      213: 2086157661913382624
+    second: Lutador_beta_3.5_attack_7
+  - first:
+      213: 6442587383126098625
+    second: Lutador_beta_3.5_attack_8
+  - first:
+      213: 6004007387031897449
+    second: Lutador_beta_3.5_attack_9
+  - first:
+      213: -875938154400443164
+    second: Lutador_beta_3.5_attack_10
+  - first:
+      213: -1559952785127808246
+    second: Lutador_beta_3.5_attack_11
+  - first:
+      213: 3209634669509707763
+    second: Lutador_beta_3.5_attack_12
+  - first:
+      213: -8150224838598485376
+    second: Lutador_beta_3.5_attack_13
+  - first:
+      213: 3242632398132535878
+    second: Lutador_beta_3.5_attack_14
+  - first:
+      213: -3907706961506561493
+    second: Lutador_beta_3.5_attack_15
+  - first:
+      213: 8901579184690712733
+    second: Lutador_beta_3.5_attack_16
+  - first:
+      213: 7040399860219938060
+    second: Lutador_beta_3.5_attack_17
+  - first:
+      213: -797668624730225461
+    second: Lutador_beta_3.5_attack_18
+  - first:
+      213: 7389913845711530254
+    second: Lutador_beta_3.5_attack_19
+  - first:
+      213: 6663923779593315019
+    second: Lutador_beta_3.5_attack_20
+  - first:
+      213: 4903192123356817633
+    second: Lutador_beta_3.5_attack_21
+  - first:
+      213: -9179009763489987432
+    second: Lutador_beta_3.5_attack_22
+  - first:
+      213: 8107886052622729281
+    second: Lutador_beta_3.5_attack_23
+  - first:
+      213: -7068779340875342635
+    second: Lutador_beta_3.5_attack_24
+  - first:
+      213: -3263330916551915013
+    second: Lutador_beta_3.5_attack_25
+  - first:
+      213: -2714946828136103736
+    second: Lutador_beta_3.5_attack_26
+  - first:
+      213: -4941414952746074230
+    second: Lutador_beta_3.5_attack_27
+  - first:
+      213: 3485920810602677196
+    second: Lutador_beta_3.5_attack_28
+  - first:
+      213: 3854057951738853709
+    second: Lutador_beta_3.5_attack_29
+  - first:
+      213: -4926803942793291402
+    second: Lutador_beta_3.5_attack_30
+  - first:
+      213: -3391159767280215453
+    second: Lutador_beta_3.5_attack_31
+  - first:
+      213: 2716980715513276431
+    second: Lutador_beta_3.5_attack_32
+  - first:
+      213: -2331766690728748103
+    second: Lutador_beta_3.5_attack_33
+  - first:
+      213: -3770709363645421898
+    second: Lutador_beta_3.5_attack_34
+  - first:
+      213: 541681722682773127
+    second: Lutador_beta_3.5_attack_35
+  - first:
+      213: 4290063456441090817
+    second: Lutador_beta_3.5_attack_36
+  - first:
+      213: -8915253310283997279
+    second: Lutador_beta_3.5_attack_37
+  - first:
+      213: 8816664163920659739
+    second: Lutador_beta_3.5_attack_38
+  - first:
+      213: -8405539587112474229
+    second: Lutador_beta_3.5_attack_39
+  - first:
+      213: 919951728017514711
+    second: Lutador_beta_3.5_attack_40
+  - first:
+      213: 7246524696088673607
+    second: Lutador_beta_3.5_attack_41
+  - first:
+      213: -8486648259838147193
+    second: Lutador_beta_3.5_attack_42
+  - first:
+      213: 8421931269742254338
+    second: Lutador_beta_3.5_attack_43
+  - first:
+      213: -4818454710301813002
+    second: Lutador_beta_3.5_attack_44
+  - first:
+      213: 5775374698139258790
+    second: Lutador_beta_3.5_attack_45
+  - first:
+      213: 2003830761463007328
+    second: Lutador_beta_3.5_attack_46
+  - first:
+      213: 8276506342116260163
+    second: Lutador_beta_3.5_attack_47
+  - first:
+      213: -5116565893580576395
+    second: Lutador_beta_3.5_attack_48
+  - first:
+      213: -8022127905708305506
+    second: Lutador_beta_3.5_attack_49
+  - first:
+      213: 2832426620989111881
+    second: Lutador_beta_3.5_attack_50
+  - first:
+      213: 712968930619021527
+    second: Lutador_beta_3.5_attack_51
+  - first:
+      213: -8974934560003605598
+    second: Lutador_beta_3.5_attack_52
+  - first:
+      213: -9211707232828201693
+    second: Lutador_beta_3.5_attack_53
+  - first:
+      213: 7169749418819073415
+    second: Lutador_beta_3.5_attack_54
+  - first:
+      213: 775184746229590182
+    second: Lutador_beta_3.5_attack_55
+  - first:
+      213: 8817148982684572621
+    second: Lutador_beta_3.5_attack_56
+  - first:
+      213: -806272734266365253
+    second: Lutador_beta_3.5_attack_57
+  - first:
+      213: -5344137833357213570
+    second: Lutador_beta_3.5_attack_58
+  - first:
+      213: -4231260107792672719
+    second: Lutador_beta_3.5_attack_59
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_0
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 631
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d39db50abef79c0c0800000000000000
+      internalID: -4554968898124129987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_1
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 631
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e87e65bc2d29fbf0800000000000000
+      internalID: -290151030942959392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_2
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 631
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6882254cab10cdd0800000000000000
+      internalID: -2467942169090815889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_3
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 631
+        width: 64
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d39eab7cf562f0180800000000000000
+      internalID: -9147050125351524035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_4
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 631
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87b12795e481b25c0800000000000000
+      internalID: -4239267899452023944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_5
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 561
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a13ef55834fc9b0800000000000000
+      internalID: -5057749616395347308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_6
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 561
+        width: 64
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dcc4ce8752547820800000000000000
+      internalID: 2915045394826448081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_7
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 561
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee7ecf275583fc10800000000000000
+      internalID: 2086157661913382624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_8
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 561
+        width: 64
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c205a5371ba86950800000000000000
+      internalID: 6442587383126098625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_9
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 561
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9658bdc68e4825350800000000000000
+      internalID: 6004007387031897449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_10
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 491
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e410c5b3ea08d3f0800000000000000
+      internalID: -875938154400443164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_11
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 491
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a036318f43fe95ae0800000000000000
+      internalID: -1559952785127808246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_12
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 491
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f787eef9b9ea8c20800000000000000
+      internalID: 3209634669509707763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_13
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 491
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a95c7e0b594ee80800000000000000
+      internalID: -8150224838598485376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_14
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 491
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 642ecd36cf4200d20800000000000000
+      internalID: 3242632398132535878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_15
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 421
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b229411f83905c9c0800000000000000
+      internalID: -3907706961506561493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_16
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 421
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90508b1b13c88b70800000000000000
+      internalID: 8901579184690712733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_17
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 421
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c058e190f5684b160800000000000000
+      internalID: 7040399860219938060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_18
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 421
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc40b7eac9c1ee4f0800000000000000
+      internalID: -797668624730225461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_19
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 421
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09606e3d7f3e8660800000000000000
+      internalID: 7389913845711530254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_20
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 351
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc220fcde530b7c50800000000000000
+      internalID: 6663923779593315019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_21
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 351
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e82d2a0243ab0440800000000000000
+      internalID: 4903192123356817633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_22
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 351
+        width: 49
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8944659a04b9d9080800000000000000
+      internalID: -9179009763489987432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_23
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 352
+        width: 48
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1400ced486ff48070800000000000000
+      internalID: 8107886052622729281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_24
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 352
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc518734a6a6ed90800000000000000
+      internalID: -7068779340875342635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_25
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 281
+        width: 67
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf98f5e32d156b2d0800000000000000
+      internalID: -3263330916551915013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_26
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 281
+        width: 67
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0cfd48e32925ad0800000000000000
+      internalID: -2714946828136103736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_27
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 281
+        width: 67
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f34cdf7419c6bb0800000000000000
+      internalID: -4941414952746074230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_28
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 281
+        width: 69
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc34d1f028a706030800000000000000
+      internalID: 3485920810602677196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_29
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 281
+        width: 71
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49f925994d5c7530800000000000000
+      internalID: 3854057951738853709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_30
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 211
+        width: 71
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 679dfc7dae970abb0800000000000000
+      internalID: -4926803942793291402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_31
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 211
+        width: 72
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a9aa6a82e20f0d0800000000000000
+      internalID: -3391159767280215453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_32
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 211
+        width: 78
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0861c9c097a4b520800000000000000
+      internalID: 2716980715513276431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_33
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 211
+        width: 78
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb560c8c86e3afd0800000000000000
+      internalID: -2331766690728748103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_34
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 211
+        width: 77
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b6eca4dfcfbbabc0800000000000000
+      internalID: -3770709363645421898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_35
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 141
+        width: 77
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e04d528a0748700800000000000000
+      internalID: 541681722682773127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_36
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 141
+        width: 77
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1034e01ebfd598b30800000000000000
+      internalID: 4290063456441090817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_37
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 141
+        width: 83
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af95ed6958a64480800000000000000
+      internalID: -8915253310283997279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_38
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 141
+        width: 67
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b15486a28551b5a70800000000000000
+      internalID: 8816664163920659739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_39
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 179
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b896daca746895b80800000000000000
+      internalID: -8405539587112474229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_40
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 141
+        width: 68
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0adf6f83354cc00800000000000000
+      internalID: 919951728017514711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_41
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 179
+        width: 36
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74df57e31d3d09460800000000000000
+      internalID: 7246524696088673607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_42
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 150
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78509a23f5e593a80800000000000000
+      internalID: -8486648259838147193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_43
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 71
+        width: 66
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 209ddb75ed5b0e470800000000000000
+      internalID: 8421931269742254338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_44
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 111
+        width: 42
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f6172268f8612db0800000000000000
+      internalID: -4818454710301813002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_45
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 69
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af8e5f40b0462050800000000000000
+      internalID: 5775374698139258790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_46
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 111
+        width: 42
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 068c007f5790fcb10800000000000000
+      internalID: 2003830761463007328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_47
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 70
+        width: 60
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3497b17daae0cd270800000000000000
+      internalID: 8276506342116260163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_48
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 110
+        width: 69
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5792043bd6e4ef8b0800000000000000
+      internalID: -5116565893580576395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_49
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 70
+        width: 66
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e93128d3c2daba090800000000000000
+      internalID: -8022127905708305506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_50
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 109
+        width: 79
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94e7a64410dce4720800000000000000
+      internalID: 2832426620989111881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_51
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 70
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d8df650779f4e900800000000000000
+      internalID: 712968930619021527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_52
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 109
+        width: 71
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2abbb94a190a27380800000000000000
+      internalID: -8974934560003605598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_53
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 0
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325e064d311792080800000000000000
+      internalID: -9211707232828201693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_54
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 39
+        width: 61
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78536450c11108360800000000000000
+      internalID: 7169749418819073415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_55
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 0
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a8e05a6b6202ca00800000000000000
+      internalID: 775184746229590182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_56
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 39
+        width: 58
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb5c94d84ecc5a70800000000000000
+      internalID: 8817148982684572621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_57
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 39
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba68f1583b8fc4f0800000000000000
+      internalID: -806272734266365253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_58
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 0
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e70840c74fec5d5b0800000000000000
+      internalID: -5344137833357213570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lutador_beta_3.5_attack_59
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 0
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1389cb2a95b8745c0800000000000000
+      internalID: -4231260107792672719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Lutador_beta_3.5_attack_0: -4554968898124129987
+      Lutador_beta_3.5_attack_1: -290151030942959392
+      Lutador_beta_3.5_attack_10: -875938154400443164
+      Lutador_beta_3.5_attack_11: -1559952785127808246
+      Lutador_beta_3.5_attack_12: 3209634669509707763
+      Lutador_beta_3.5_attack_13: -8150224838598485376
+      Lutador_beta_3.5_attack_14: 3242632398132535878
+      Lutador_beta_3.5_attack_15: -3907706961506561493
+      Lutador_beta_3.5_attack_16: 8901579184690712733
+      Lutador_beta_3.5_attack_17: 7040399860219938060
+      Lutador_beta_3.5_attack_18: -797668624730225461
+      Lutador_beta_3.5_attack_19: 7389913845711530254
+      Lutador_beta_3.5_attack_2: -2467942169090815889
+      Lutador_beta_3.5_attack_20: 6663923779593315019
+      Lutador_beta_3.5_attack_21: 4903192123356817633
+      Lutador_beta_3.5_attack_22: -9179009763489987432
+      Lutador_beta_3.5_attack_23: 8107886052622729281
+      Lutador_beta_3.5_attack_24: -7068779340875342635
+      Lutador_beta_3.5_attack_25: -3263330916551915013
+      Lutador_beta_3.5_attack_26: -2714946828136103736
+      Lutador_beta_3.5_attack_27: -4941414952746074230
+      Lutador_beta_3.5_attack_28: 3485920810602677196
+      Lutador_beta_3.5_attack_29: 3854057951738853709
+      Lutador_beta_3.5_attack_3: -9147050125351524035
+      Lutador_beta_3.5_attack_30: -4926803942793291402
+      Lutador_beta_3.5_attack_31: -3391159767280215453
+      Lutador_beta_3.5_attack_32: 2716980715513276431
+      Lutador_beta_3.5_attack_33: -2331766690728748103
+      Lutador_beta_3.5_attack_34: -3770709363645421898
+      Lutador_beta_3.5_attack_35: 541681722682773127
+      Lutador_beta_3.5_attack_36: 4290063456441090817
+      Lutador_beta_3.5_attack_37: -8915253310283997279
+      Lutador_beta_3.5_attack_38: 8816664163920659739
+      Lutador_beta_3.5_attack_39: -8405539587112474229
+      Lutador_beta_3.5_attack_4: -4239267899452023944
+      Lutador_beta_3.5_attack_40: 919951728017514711
+      Lutador_beta_3.5_attack_41: 7246524696088673607
+      Lutador_beta_3.5_attack_42: -8486648259838147193
+      Lutador_beta_3.5_attack_43: 8421931269742254338
+      Lutador_beta_3.5_attack_44: -4818454710301813002
+      Lutador_beta_3.5_attack_45: 5775374698139258790
+      Lutador_beta_3.5_attack_46: 2003830761463007328
+      Lutador_beta_3.5_attack_47: 8276506342116260163
+      Lutador_beta_3.5_attack_48: -5116565893580576395
+      Lutador_beta_3.5_attack_49: -8022127905708305506
+      Lutador_beta_3.5_attack_5: -5057749616395347308
+      Lutador_beta_3.5_attack_50: 2832426620989111881
+      Lutador_beta_3.5_attack_51: 712968930619021527
+      Lutador_beta_3.5_attack_52: -8974934560003605598
+      Lutador_beta_3.5_attack_53: -9211707232828201693
+      Lutador_beta_3.5_attack_54: 7169749418819073415
+      Lutador_beta_3.5_attack_55: 775184746229590182
+      Lutador_beta_3.5_attack_56: 8817148982684572621
+      Lutador_beta_3.5_attack_57: -806272734266365253
+      Lutador_beta_3.5_attack_58: -5344137833357213570
+      Lutador_beta_3.5_attack_59: -4231260107792672719
+      Lutador_beta_3.5_attack_6: 2915045394826448081
+      Lutador_beta_3.5_attack_7: 2086157661913382624
+      Lutador_beta_3.5_attack_8: 6442587383126098625
+      Lutador_beta_3.5_attack_9: 6004007387031897449
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
