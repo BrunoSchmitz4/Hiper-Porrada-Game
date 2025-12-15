@@ -65,7 +65,7 @@ public class PlayerController : MonoBehaviour
             Vector3 enemyPos = hit.collider.transform.position;
             Destroy(hit.collider.gameObject);
             transform.position = enemyPos;
-
+            ScoreManager.instance.AddPoint();
             Debug.Log("Inimigo atingido!");
         }
         else
