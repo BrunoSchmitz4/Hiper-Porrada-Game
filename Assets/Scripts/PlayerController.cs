@@ -65,11 +65,12 @@ public class PlayerController : MonoBehaviour
             Vector3 enemyPos = hit.collider.transform.position;
             Destroy(hit.collider.gameObject);
             transform.position = enemyPos;
-            ScoreManager.instance.AddPoint();
+            ScoreManager.instance.AddCombo();
             Debug.Log("Inimigo atingido!");
         }
         else
         {
+            ScoreManager.instance.DelCombo();
             Debug.Log("Errou o golpe!");
         }
     }
