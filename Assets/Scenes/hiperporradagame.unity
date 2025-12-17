@@ -394,8 +394,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f754748fefab0064da929ea7e18de158, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  scoreText: {fileID: 1609056633}
   comboText: {fileID: 820089384}
+  scoreText: {fileID: 1609056633}
 --- !u!1 &1382923683
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,7 +525,6 @@ MonoBehaviour:
   enemyLayer:
     serializedVersion: 2
     m_Bits: 64
-  animator: {fileID: 1454442410}
 --- !u!212 &1454442409
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -573,8 +572,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -3805592293027201572, guid: ec4d174ab03eb6b4a9529c2f1c7c1e7f, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: 2396408914343622333, guid: b6d6c500b8641dc4caedd80a62b48785, type: 3}
+  m_Color: {r: 0.2398169, g: 1, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

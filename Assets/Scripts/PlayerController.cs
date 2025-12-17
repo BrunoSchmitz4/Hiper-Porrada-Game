@@ -8,8 +8,6 @@ public class PlayerController : MonoBehaviour
 
     private Vector3 currentScale;//Essa variavel guarda a escala atual do objeto
 
-    [SerializeField] private Animator animator;
-
     void Start()
     {
         currentScale = transform.localScale; // Inicializa a variável coma  escala que está no Inspector agora.
@@ -35,8 +33,7 @@ public class PlayerController : MonoBehaviour
     // NOVA FUNÇÃO PRA VIRAR O SPRITE NO ATAQUE
     void FlipSprite(string direction)
     {
-        // Dispara a animação de ataque
-        animator.SetTrigger("Attack");
+
         // Atualiza a escala baseada no que está agora no objeto
         currentScale = transform.localScale;
 
