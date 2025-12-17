@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 
 public class ScoreManager : MonoBehaviour
 {
@@ -7,8 +8,8 @@ public class ScoreManager : MonoBehaviour
     public Text comboText;
     public Text scoreText;
 
-    int combo = 0;
-    int score = 0;
+    Double combo = 0;
+    Double score = 0;
 
     private void Awake()
     {
@@ -24,7 +25,7 @@ public class ScoreManager : MonoBehaviour
     {
         combo += 1;
         comboText.text = combo.ToString() + " x";
-        score += combo * 10;
+        score += 10 * Math.Ceiling(combo / 10);
         scoreText.text = score.ToString() + " pts";
     }
     public void DelCombo()
