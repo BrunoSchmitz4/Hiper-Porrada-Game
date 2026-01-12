@@ -8,7 +8,14 @@ public class PlayerController : MonoBehaviour
 
     private Vector3 currentScale;//Essa variavel guarda a escala atual do objeto
 
+    AudioManager audioManager;
+
     [SerializeField] private Animator animator;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
 
     void Start()
     {
@@ -32,7 +39,6 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    // NOVA FUNÇÃO PRA VIRAR O SPRITE NO ATAQUE
     void FlipSprite(string direction)
     {
         // Dispara a animação de ataque
@@ -64,13 +70,16 @@ public class PlayerController : MonoBehaviour
         {
             Vector3 enemyPos = hit.collider.transform.position;
             Destroy(hit.collider.gameObject);
+            audioManager.PlaySFX(audioManager.hitPunch);
             transform.position = enemyPos;
             ScoreManager.instance.AddCombo();
             Debug.Log("Inimigo atingido!");
+            
         }
         else
         {
             ScoreManager.instance.DelCombo();
+            audioManager.PlaySFX(audioManager.loseCombo);
             Debug.Log("Errou o golpe!");
         }
     }
