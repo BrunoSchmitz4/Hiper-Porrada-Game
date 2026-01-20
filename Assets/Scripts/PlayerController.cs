@@ -66,7 +66,7 @@ public class PlayerController : MonoBehaviour
 
         Debug.DrawRay(transform.position, direction * attackRange, Color.red, 0.5f);
 
-        if (hit.collider != null && hit.collider.CompareTag("Enemy"))
+        if (hit.collider != null && hit.collider.CompareTag("enemy"))
         {
             Vector3 enemyPos = hit.collider.transform.position;
             Destroy(hit.collider.gameObject);

@@ -8,6 +8,8 @@ public class ScoreManager : MonoBehaviour
     public Text comboText;
     public Text scoreText;
 
+
+    // Combo = quantos inimigos eliminados em sequência (atualizar) sem tomar dano
     Double combo = 0;
     Double score = 0;
     Double previewCombo = 0;
