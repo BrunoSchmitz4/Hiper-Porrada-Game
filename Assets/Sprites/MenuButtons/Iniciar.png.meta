@@ -1,0 +1,356 @@
+fileFormatVersion: 2
+guid: f965d8e12d83ac84e9c8cb739b137e47
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5930175992629912359
+    second: Iniciar (1)_0
+  - first:
+      213: 492186398134108900
+    second: Iniciar (1)_1
+  - first:
+      213: -7727689265171226600
+    second: Iniciar (1)_2
+  - first:
+      213: 4709152220979143104
+    second: Iniciar (1)_3
+  - first:
+      213: -8110439452480863795
+    second: Iniciar (1)_4
+  - first:
+      213: 3961494464281876111
+    second: Iniciar (1)_5
+  - first:
+      213: -9119484178949897018
+    second: Iniciar (1)_6
+  - first:
+      213: 7995124118567017409
+    second: Iniciar (1)_7
+  - first:
+      213: 1780092102289095596
+    second: Iniciar (1)_8
+  - first:
+      213: 8086808394376190829
+    second: Iniciar (1)_9
+  - first:
+      213: -768963657276982194
+    second: Iniciar (1)_10
+  - first:
+      213: 6641585338887175759
+    second: Iniciar (1)_11
+  - first:
+      213: -6281157039786035395
+    second: Iniciar (1)_12
+  - first:
+      213: 2161652305178189884
+    second: Iniciar (1)_13
+  - first:
+      213: 7931546739761377005
+    second: Iniciar (1)_14
+  - first:
+      213: 354183717579141343
+    second: Iniciar (1)_15
+  - first:
+      213: -981261965560499450
+    second: Iniciar (1)_16
+  - first:
+      213: 197548290926535221
+    second: Iniciar (1)_17
+  - first:
+      213: -8535959436923208756
+    second: Iniciar (1)_18
+  - first:
+      213: -1209215390137787958
+    second: Iniciar (1)_19
+  - first:
+      213: -3529598682353186935
+    second: Iniciar (1)_20
+  - first:
+      213: 5965493892372087954
+    second: Iniciar (1)_21
+  - first:
+      213: 8638629862080111375
+    second: Iniciar (1)_22
+  - first:
+      213: -266632410111774212
+    second: Iniciar (1)_23
+  - first:
+      213: 6568849090174178291
+    second: Iniciar (1)_24
+  - first:
+      213: 4676586123052173249
+    second: Iniciar (1)_25
+  - first:
+      213: 5290842885972668947
+    second: Iniciar (1)_26
+  - first:
+      213: -1704767399636797845
+    second: Iniciar (1)_27
+  - first:
+      213: -6902076545287851929
+    second: Iniciar (1)_28
+  - first:
+      213: 1928052735253803101
+    second: Iniciar (1)_29
+  - first:
+      213: -4093881335375610638
+    second: Iniciar (1)_30
+  - first:
+      213: 1050900577418693587
+    second: Iniciar (1)_31
+  - first:
+      213: -5606831752125145145
+    second: Iniciar (1)_32
+  - first:
+      213: 2172319262851352622
+    second: Iniciar (1)_33
+  - first:
+      213: -7709759655871859422
+    second: Iniciar (1)_34
+  - first:
+      213: -8930245542721790415
+    second: Iniciar (1)_35
+  - first:
+      213: -8828937000239225686
+    second: Iniciar (1)_36
+  - first:
+      213: -3828441959533676581
+    second: Iniciar (1)_37
+  - first:
+      213: -3108600903512438585
+    second: Iniciar (1)_38
+  - first:
+      213: 8109000601145325386
+    second: Iniciar (1)_39
+  - first:
+      213: 717074677336966942
+    second: Iniciar (1)_40
+  - first:
+      213: 7629155753830018580
+    second: Iniciar (1)_41
+  - first:
+      213: -5384021642786960840
+    second: Iniciar (1)_42
+  - first:
+      213: -1301962228645295953
+    second: Iniciar (1)_43
+  - first:
+      213: -461149534669177556
+    second: Iniciar (1)_44
+  - first:
+      213: 7303559754778859160
+    second: Iniciar (1)_45
+  - first:
+      213: 4139502221050314721
+    second: Iniciar (1)_46
+  - first:
+      213: 5871656738067051194
+    second: Iniciar (1)_47
+  - first:
+      213: 8747139531453187437
+    second: Iniciar (1)_48
+  - first:
+      213: 5009564805877301902
+    second: Iniciar (1)_49
+  - first:
+      213: 5765157418737611145
+    second: Iniciar (1)_50
+  - first:
+      213: 8463333039649663005
+    second: Iniciar (1)_51
+  - first:
+      213: 5528257683905265464
+    second: Iniciar (1)_52
+  - first:
+      213: 2820868159822448463
+    second: Iniciar (1)_53
+  - first:
+      213: 8625713123538279990
+    second: Iniciar (1)_54
+  - first:
+      213: 8419891076957960191
+    second: Iniciar (1)_55
+  - first:
+      213: -4850345040089007202
+    second: Iniciar (1)_56
+  - first:
+      213: -2183361975957340238
+    second: Iniciar (1)_57
+  - first:
+      213: 4653004847807986919
+    second: Iniciar (1)_58
+  - first:
+      213: -547885633578930086
+    second: Iniciar (1)_59
+  - first:
+      213: 3711395699292220455
+    second: Iniciar (1)_60
+  - first:
+      213: -8722186648307165790
+    second: Iniciar (1)_61
+  - first:
+      213: -491273380681199742
+    second: Iniciar (1)_62
+  - first:
+      213: -1061355540334650240
+    second: Iniciar (1)_63
+  - first:
+      213: -6003743514633450239
+    second: Iniciar (1)_64
+  - first:
+      213: -6551090548479578287
+    second: Iniciar (1)_65
+  - first:
+      213: 9110450945641411179
+    second: Iniciar (1)_66
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Iniciar_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 635
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96bb9a2cb4fd59f4db681762bf20c4a9
+      internalID: 1884739588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b286a7eab20465d41bb6ea6abcac9776
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":635.0,"y":80.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Iniciar_0: 1884739588
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
