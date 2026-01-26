@@ -3,6 +3,9 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
+    public GameObject floatingTextPrefab;
+    public Transform textPoint;
+
     public float attackRange = 3.0f; // range de ataque
     public LayerMask enemyLayer; // Para o Raycast só bater nos inimigos
 
@@ -66,6 +69,7 @@ public class PlayerController : MonoBehaviour
 
         Debug.DrawRay(transform.position, direction * attackRange, Color.red, 0.5f);
 
+        // Valida Acerto Golpe
         if (hit.collider != null && hit.collider.CompareTag("enemy"))
         {
             Vector3 enemyPos = hit.collider.transform.position;
@@ -80,6 +84,8 @@ public class PlayerController : MonoBehaviour
         {
             ScoreManager.instance.DelCombo();
             audioManager.PlaySFX(audioManager.loseCombo);
+            GameObject tempVFX = Instantiate(floatingTextPrefab, textPoint.position, Quaternion.identity);
+            Destroy(tempVFX, 0.7f);
             Debug.Log("Errou o golpe!");
         }
     }
