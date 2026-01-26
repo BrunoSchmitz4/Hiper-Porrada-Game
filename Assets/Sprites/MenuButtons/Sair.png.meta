@@ -1,0 +1,275 @@
+fileFormatVersion: 2
+guid: a0ca7409549b0264fb3726d6b800c240
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5037784736474074088
+    second: sair_0
+  - first:
+      213: 3769745894794267832
+    second: sair_1
+  - first:
+      213: -4289196924077682032
+    second: sair_2
+  - first:
+      213: 1414890619725696718
+    second: sair_3
+  - first:
+      213: -8632158056126534233
+    second: sair_4
+  - first:
+      213: 8385835873499297229
+    second: sair_5
+  - first:
+      213: 4440236462422489257
+    second: sair_6
+  - first:
+      213: -9207338031650914683
+    second: sair_7
+  - first:
+      213: -2142355025955244414
+    second: sair_8
+  - first:
+      213: 9042110275320600962
+    second: sair_9
+  - first:
+      213: 9024996318108032517
+    second: sair_10
+  - first:
+      213: 6120151439399510246
+    second: sair_11
+  - first:
+      213: 5124093797472414633
+    second: sair_12
+  - first:
+      213: 7641486393832893819
+    second: sair_13
+  - first:
+      213: 9010387528059586600
+    second: sair_14
+  - first:
+      213: -5617525106653520180
+    second: sair_15
+  - first:
+      213: 9103285542403345452
+    second: sair_16
+  - first:
+      213: -4386699826980598155
+    second: sair_17
+  - first:
+      213: -7967431804495310315
+    second: sair_18
+  - first:
+      213: -9108106925252641526
+    second: sair_19
+  - first:
+      213: -7198727875629606883
+    second: sair_20
+  - first:
+      213: 4261327188151057709
+    second: sair_21
+  - first:
+      213: -1191234960782456473
+    second: sair_22
+  - first:
+      213: 2662291039796604455
+    second: sair_23
+  - first:
+      213: 7520715961127017689
+    second: sair_24
+  - first:
+      213: 7721893412089883745
+    second: sair_25
+  - first:
+      213: 2682597129857572934
+    second: sair_26
+  - first:
+      213: -1198986949739503301
+    second: sair_27
+  - first:
+      213: -684742243209042598
+    second: sair_28
+  - first:
+      213: 8304176314775249821
+    second: sair_29
+  - first:
+      213: -1050894615292862083
+    second: sair_30
+  - first:
+      213: 5435083462516279917
+    second: sair_31
+  - first:
+      213: 4231060298235365914
+    second: sair_32
+  - first:
+      213: 8097955989810140912
+    second: sair_33
+  - first:
+      213: -3182777935761609417
+    second: sair_34
+  - first:
+      213: 430401455433813114
+    second: sair_35
+  - first:
+      213: -5948214169722925824
+    second: sair_36
+  - first:
+      213: -1576584045677285647
+    second: sair_37
+  - first:
+      213: 968549967181449295
+    second: sair_38
+  - first:
+      213: 1621672529246587077
+    second: sair_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sair_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 365
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b972e998c1954e4cafa44d8d2d49078
+      internalID: -1637229433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e835a1a9a3bba884799bdd46d1c8215b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":365.0,"y":80.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Sair_0: -1637229433
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

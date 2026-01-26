@@ -3,12 +3,22 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
+    public GameObject floatingTextPrefab;
+    public Transform textPoint;
+
     public float attackRange = 3.0f; // range de ataque
     public LayerMask enemyLayer; // Para o Raycast só bater nos inimigos
 
     private Vector3 currentScale;//Essa variavel guarda a escala atual do objeto
 
+    AudioManager audioManager;
+
     [SerializeField] private Animator animator;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
 
     void Start()
     {
@@ -32,7 +42,6 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    // NOVA FUNÇÃO PRA VIRAR O SPRITE NO ATAQUE
     void FlipSprite(string direction)
     {
         // Dispara a animação de ataque
@@ -60,17 +69,23 @@ public class PlayerController : MonoBehaviour
 
         Debug.DrawRay(transform.position, direction * attackRange, Color.red, 0.5f);
 
-        if (hit.collider != null && hit.collider.CompareTag("Enemy"))
+        // Valida Acerto Golpe
+        if (hit.collider != null && hit.collider.CompareTag("enemy"))
         {
             Vector3 enemyPos = hit.collider.transform.position;
             Destroy(hit.collider.gameObject);
+            audioManager.PlaySFX(audioManager.hitPunch);
             transform.position = enemyPos;
             ScoreManager.instance.AddCombo();
             Debug.Log("Inimigo atingido!");
+            
         }
         else
         {
             ScoreManager.instance.DelCombo();
+            audioManager.PlaySFX(audioManager.loseCombo);
+            GameObject tempVFX = Instantiate(floatingTextPrefab, textPoint.position, Quaternion.identity);
+            Destroy(tempVFX, 0.7f);
             Debug.Log("Errou o golpe!");
         }
     }
