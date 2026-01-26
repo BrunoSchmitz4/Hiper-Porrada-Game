@@ -5,25 +5,25 @@ public class Player_behavior : MonoBehaviour
 
     // Player no centro
     /*
-     Inimigos se aproximam da posição do player;
-     player não se move mas ataca na direção do inimigo mais próximo;
+     Inimigos se aproximam da posiï¿½ï¿½o do player;
+     player nï¿½o se move mas ataca na direï¿½ï¿½o do inimigo mais prï¿½ximo;
      player atinge inimigo se estiver no range;
-     Player se movimenta na direção do ataque (definir range da investida);
-     Ataque do player é hitkill
-     Player substitui posição atrás do inimigo atingido (bah guri)
-     Nova posição = posição do inimigo - 5 / + 5 (esquerda/direita)
-     Inimigo é atravessável
-     Ataque do inimigo é hitkill (se pá)
+     Player se movimenta na direï¿½ï¿½o do ataque (definir range da investida);
+     Ataque do player ï¿½ hitkill
+     Player substitui posiï¿½ï¿½o atrï¿½s do inimigo atingido (bah guri)
+     Nova posiï¿½ï¿½o = posiï¿½ï¿½o do inimigo - 5 / + 5 (esquerda/direita)
+     Inimigo ï¿½ atravessï¿½vel
+     Ataque do inimigo ï¿½ hitkill (se pï¿½)
      
-     provavelmente a ordem de inimigo será em ordem de geração - fila (FIFO - First In First Out)
+     provavelmente a ordem de inimigo serï¿½ em ordem de geraï¿½ï¿½o - fila (FIFO - First In First Out)
      
     */
 
-    public GameObject ataqueAcerto;     // Área de acerto do ataque
-    public Transform fist;             // De onde saí o soco (ah, jura?)
+    public GameObject ataqueAcerto;     // ï¿½rea de acerto do ataque
+    public Transform fist;             // De onde saï¿½ o soco (ah, jura?)
     private bool punch;                  // Input do soco do ataque
     public float punchVelocity;             // Velocidade do soco
-    private bool flipX = false;
+   // private bool flipX = false;
 
 
     [SerializeField]
