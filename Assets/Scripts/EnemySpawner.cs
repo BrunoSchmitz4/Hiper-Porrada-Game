@@ -2,6 +2,18 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
+    /**
+     Desenvolver fórmula de somatório de acréscimo de dificuldade;
+        Teremos 4 tipos de inimigos.
+        Variáveis para o somatório:
+        ValorInimigo (VI): o valor que o inimigo tem no mapa;
+        ValorMapa (VM): o valor que o mapa tem para spawn de inimigos (começa em 5);
+        Tempo (T): tempo contado em segundos;
+        Colddown de spawner: tempo até próximo inimigo ser spawnado;
+        Fórmula: E = (
+         */
+
+
     public GameObject enemyPrefab;
     public Transform player;
     public float spawnInterval = 1.5f;
@@ -11,6 +23,10 @@ public class EnemySpawner : MonoBehaviour
 
     void Update()
     {
+        // Não spawna se o jogo está pausado ou acabou
+        if (GameManager.instance != null && (GameManager.instance.isPaused || GameManager.instance.isGameOver))
+            return;
+
         timer += Time.deltaTime;
 
         if (timer >= spawnInterval)
@@ -22,6 +38,8 @@ public class EnemySpawner : MonoBehaviour
 
     void SpawnEnemy()
     {
+        if (enemyPrefab == null || player == null) return;
+
         // Decide aleatoriamente se é esquerda (0) ou direita (1)
         int side = Random.Range(0, 2);
 

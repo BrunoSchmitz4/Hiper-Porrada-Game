@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
+    public static AudioManager instance;
+
     [Header("Fontes de Áudio")]
     [SerializeField] AudioSource musicSource;
     [SerializeField] AudioSource SFXSource;
@@ -12,7 +14,19 @@ public class AudioManager : MonoBehaviour
     public AudioClip addCombo;
     public AudioClip loseCombo;
     public AudioClip hitPunch;
-    //public AudioClip missPunch;
+
+    private void Awake()
+    {
+        // Implementação Singleton com proteção de duplicatas
+        if (instance != null && instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        instance = this;
+        DontDestroyOnLoad(gameObject); // Persiste entre cenas
+    }
 
     private void Start()
     {
@@ -22,6 +36,33 @@ public class AudioManager : MonoBehaviour
 
     public void PlaySFX(AudioClip clip)
     {
-        SFXSource.PlayOneShot(clip);
+        if (SFXSource != null && clip != null)
+        {
+            SFXSource.PlayOneShot(clip);
+        }
+    }
+
+    public void StopMusic()
+    {
+        if (musicSource != null)
+        {
+            musicSource.Stop();
+        }
+    }
+
+    public void SetMusicVolume(float volume)
+    {
+        if (musicSource != null)
+        {
+            musicSource.volume = Mathf.Clamp01(volume);
+        }
+    }
+
+    public void SetSFXVolume(float volume)
+    {
+        if (SFXSource != null)
+        {
+            SFXSource.volume = Mathf.Clamp01(volume);
+        }
     }
 }
