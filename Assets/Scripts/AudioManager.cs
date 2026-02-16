@@ -1,32 +1,9 @@
 using UnityEngine;
-using System.Collections.Generic;
-using System.Linq;
-using System;
 
 public class AudioManager : MonoBehaviour
 {
+    public static AudioManager instance;
 
-    [SerializeField] private AudioSource SFXAudioSource;
-    [SerializeField] private AudioSource EnvironmentAudioSource;
-    [SerializeField] private SFXConfig[] SFXConfigs;
-
-    private Dictionary<SFX, SFXConfig> SFXs;
-
-    private void Awake()
-    {
-        SFXs = SFXConfigs.ToDictionary(sfxc => sfxc.Type, sfxc => sfxc);
-    }
-
-    public void PlaySFX(SFX type)
-    {
-        if (SFXs.ContainsKey(type))
-        {
-            SFXConfig config = SFXs[type];
-            SFXAudioSource.PlayOneShot(config.AudioClip, config.VolumeScale);
-        }
-    }
-
-    
     [Header("Fontes de Áudio")]
     [SerializeField] AudioSource musicSource;
     [SerializeField] AudioSource SFXSource;
@@ -38,6 +15,19 @@ public class AudioManager : MonoBehaviour
     public AudioClip loseCombo;
     public AudioClip hitPunch;
 
+    private void Awake()
+    {
+        // Implementação Singleton com proteção de duplicatas
+        if (instance != null && instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        instance = this;
+        DontDestroyOnLoad(gameObject); // Persiste entre cenas
+    }
+
     private void Start()
     {
         musicSource.clip = background;
@@ -46,23 +36,33 @@ public class AudioManager : MonoBehaviour
 
     public void PlaySFX(AudioClip clip)
     {
-        SFXSource.PlayOneShot(clip);
-    } 
-    
-}
+        if (SFXSource != null && clip != null)
+        {
+            SFXSource.PlayOneShot(clip);
+        }
+    }
 
-public enum SFX
-{
-    playerDeath,
-    playerAddCombo,
-    playerLoseCombo,
-    playerHitPunch
-}
+    public void StopMusic()
+    {
+        if (musicSource != null)
+        {
+            musicSource.Stop();
+        }
+    }
 
-[SerializeField]
-struct SFXConfig
-{
-    public SFX Type;
-    public AudioClip AudioClip;
-    public float VolumeScale;
+    public void SetMusicVolume(float volume)
+    {
+        if (musicSource != null)
+        {
+            musicSource.volume = Mathf.Clamp01(volume);
+        }
+    }
+
+    public void SetSFXVolume(float volume)
+    {
+        if (SFXSource != null)
+        {
+            SFXSource.volume = Mathf.Clamp01(volume);
+        }
+    }
 }
