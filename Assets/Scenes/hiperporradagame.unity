@@ -153,8 +153,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0.0027466, y: -540.51}
-  m_SizeDelta: {x: 1920, y: 1079}
+  m_AnchoredPosition: {x: 0.0002594, y: -60.92}
+  m_SizeDelta: {x: 1128, y: 119.83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &293093587
 MonoBehaviour:
@@ -227,8 +227,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bdcae619faa6c94d91ec865ebc147df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  SFXAudioSource: {fileID: 1049216202}
-  EnvironmentAudioSource: {fileID: 1059828413}
   musicSource: {fileID: 1792741099}
   SFXSource: {fileID: 1094744760}
   background: {fileID: 8300000, guid: 51a4f1157b7ff1449b5e5cf064d584c7, type: 3}
@@ -320,8 +318,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -0.0027466, y: -569.01}
-  m_SizeDelta: {x: 1920, y: 1022}
+  m_AnchoredPosition: {x: -0.0002594, y: -60.92}
+  m_SizeDelta: {x: 1128, y: 119.83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &820089384
 MonoBehaviour:
@@ -350,7 +348,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 120
-    m_Alignment: 1
+    m_Alignment: 7
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -1131,8 +1129,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -7.62, y: -540.51}
-  m_SizeDelta: {x: 1904.76, y: 1079}
+  m_AnchoredPosition: {x: -8.3026, y: -277}
+  m_SizeDelta: {x: 1111.4, y: 551.99}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1609056633
 MonoBehaviour:

@@ -5,45 +5,81 @@ using System;
 public class ScoreManager : MonoBehaviour
 {
     public static ScoreManager instance;
+
     public Text comboText;
     public Text scoreText;
 
+    private Double combo = 0;
+    private Double score = 0;
+    private Double previewCombo = 0;
 
-    // Combo = quantos inimigos eliminados em sequência (atualizar) sem tomar dano
-    Double combo = 0;
-    Double score = 0;
-    Double previewCombo = 0;
-
-    AudioManager audioManager;
-
+    // Eventos para notificar outras classes
+    public event Action<Double> OnComboChanged;
+    public event Action<Double> OnScoreChanged;
 
     private void Awake()
     {
+        // Implementação Singleton com proteção
+        if (instance != null && instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
         instance = this;
-        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
+
     void Start()
     {
-        scoreText.text = score.ToString() + " pts";
-        comboText.text = combo.ToString() + " x";
+        UpdateUI();
     }
 
     public void AddCombo()
     {
         combo += 1;
-        comboText.text = combo.ToString() + " x";
-        if((combo - previewCombo == 10))
+
+        // Toca som a cada 10 combos
+        if ((combo - previewCombo == 10))
         {
             previewCombo = combo;
-            audioManager.PlaySFX(audioManager.addCombo);
+            AudioManager.instance?.PlaySFX(AudioManager.instance.addCombo);
         }
+
         score += 10 * Math.Ceiling(combo / 10);
-        scoreText.text = score.ToString() + " pts";
+
+        UpdateUI();
+
+        // Notifica listeners (Observer Pattern)
+        OnComboChanged?.Invoke(combo);
+        OnScoreChanged?.Invoke(score);
     }
+
     public void DelCombo()
     {
-        audioManager.PlaySFX(audioManager.loseCombo);
+        AudioManager.instance?.PlaySFX(AudioManager.instance.loseCombo);
         combo = 0;
-        comboText.text = combo.ToString() + " x";
+
+        UpdateUI();
+        OnComboChanged?.Invoke(combo);
+    }
+
+    private void UpdateUI()
+    {
+        if (comboText != null)
+            comboText.text = combo.ToString() + " x";
+
+        if (scoreText != null)
+            scoreText.text = score.ToString() + " pts";
+    }
+
+    public Double GetScore() => score;
+    public Double GetCombo() => combo;
+
+    public void ResetScore()
+    {
+        combo = 0;
+        score = 0;
+        previewCombo = 0;
+        UpdateUI();
     }
 }
