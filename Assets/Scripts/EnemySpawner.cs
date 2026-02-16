@@ -23,6 +23,10 @@ public class EnemySpawner : MonoBehaviour
 
     void Update()
     {
+        // Não spawna se o jogo está pausado ou acabou
+        if (GameManager.instance != null && (GameManager.instance.isPaused || GameManager.instance.isGameOver))
+            return;
+
         timer += Time.deltaTime;
 
         if (timer >= spawnInterval)
@@ -34,6 +38,8 @@ public class EnemySpawner : MonoBehaviour
 
     void SpawnEnemy()
     {
+        if (enemyPrefab == null || player == null) return;
+
         // Decide aleatoriamente se é esquerda (0) ou direita (1)
         int side = Random.Range(0, 2);
 
