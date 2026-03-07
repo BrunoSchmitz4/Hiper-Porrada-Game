@@ -17,9 +17,9 @@ public class ScoreManager : MonoBehaviour
     public event Action<Double> OnComboChanged;
     public event Action<Double> OnScoreChanged;
 
+
     private void Awake()
     {
-        // Implementação Singleton com proteção
         if (instance != null && instance != this)
         {
             Destroy(gameObject);
@@ -29,10 +29,7 @@ public class ScoreManager : MonoBehaviour
         instance = this;
     }
 
-    void Start()
-    {
-        UpdateUI();
-    }
+    void Start() { UpdateUI(); }
 
     public void AddCombo()
     {
@@ -42,10 +39,10 @@ public class ScoreManager : MonoBehaviour
         if ((combo - previewCombo == 10))
         {
             previewCombo = combo;
-            AudioManager.instance?.PlaySFX(AudioManager.instance.addCombo);
+            AudioManager.instance?.PlaySFXAudioMixer(SFX.PlayerAddCombo);
         }
 
-        score += 10 * Math.Ceiling(combo / 10);
+        //score += 10 * Math.Ceiling(combo / 10);
 
         UpdateUI();
 
@@ -54,11 +51,22 @@ public class ScoreManager : MonoBehaviour
         OnScoreChanged?.Invoke(score);
     }
 
+    public void AddScore(int points)
+    {
+        double comboMultiplier = Math.Ceiling(combo / 10);
+        if (comboMultiplier < 1) comboMultiplier = 1;
+
+        score += points * comboMultiplier;
+        UpdateUI();
+    }
+
     public void DelCombo()
     {
-        AudioManager.instance?.PlaySFX(AudioManager.instance.loseCombo);
-        combo = 0;
+        //AudioManager.instance?.PlaySFX(AudioManager.instance.loseCombo);
+        AudioManager.instance?.PlaySFXAudioMixer(SFX.PlayerLoseCombo);
 
+        combo = 0;
+        previewCombo = 0;
         UpdateUI();
         OnComboChanged?.Invoke(combo);
     }

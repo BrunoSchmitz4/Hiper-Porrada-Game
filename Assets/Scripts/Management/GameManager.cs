@@ -46,7 +46,9 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 0f;
 
         // Toca som de morte
-        AudioManager.instance?.PlaySFX(AudioManager.instance.death);
+        //AudioManager.instance?.PlaySFX(AudioManager.instance.death);
+        AudioManager.instance?.PlaySFXAudioMixer(SFX.PlayerDeath);
+
 
         Debug.Log("Game Over! Score: " + ScoreManager.instance.GetScore());
 
