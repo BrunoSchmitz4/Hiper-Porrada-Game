@@ -6,6 +6,14 @@ public class PlayerController : MonoBehaviour
     public GameObject floatingTextPrefab;
     public Transform textPoint;
 
+    //invulnerabilidade
+    [Header("Defesas")]
+    public bool isInvulnerable = false;
+    public float invulnerabilityTime = 0.2f; // 0.2 segundos de invulnerabilidade
+
+    [Header("Combate")]
+    public float attackOffset = 1.0f; // Distância que o player vai parar antes de encostar no inimigo
+
     public float attackRange = 3.0f;
     public int attackDamage = 1;
     public LayerMask enemyLayer;
@@ -39,7 +47,13 @@ public class PlayerController : MonoBehaviour
     void FlipSprite(string direction)
     {
         if (animator != null)
-            animator.SetTrigger("Attack");
+        {
+            // 1. Limpa qualquer animação stackada antes
+            animator.ResetTrigger("Attack");
+            // 2. Força a animação a reiniciar do zero (0f) 
+            animator.Play("Player_ATTACK", -1, 0f);
+        }
+
         currentScale = transform.localScale;
 
         if (direction == "left") { currentScale.x = -Mathf.Abs(currentScale.x); }
@@ -63,26 +77,36 @@ public class PlayerController : MonoBehaviour
 
         if (hit.collider != null && hit.collider.CompareTag("enemy"))
         {
-            // Tenta pegar o componente Enemy (classe base)
             Enemy enemy = hit.collider.GetComponent<Enemy>();
 
             if (enemy != null)
             {
                 Vector3 enemyPos = hit.collider.transform.position;
 
-                enemy.TakeDamage(attackDamage);
+                // NOVIDADE: Calcula a posição ideal para o Player parar.
+                // Mantemos o Y e o Z do Player, e mudamos apenas o X baseado na direção do ataque e no offset.
+                Vector3 targetPos = new Vector3(
+                    enemyPos.x - (direction.x * attackOffset),
+                    transform.position.y,
+                    transform.position.z
+                );
 
-                // Se o inimigo morreu, adiciona combo
+                // O Player se move para a posição IDEAL em TODOS os acertos, seja kill ou não.
+                transform.position = targetPos;
+
+                // Aplica o dano e a invulnerabilidade
+                enemy.TakeDamage(attackDamage);
+                StartCoroutine(IFramesRoutine());
+
+                // Verifica se morreu para os logs/sons corretos
                 if (enemy == null || enemy.GetCurrentHealth() <= 0)
                 {
                     AudioManager.instance?.PlaySFXAudioMixer(SFX.PlayerHitPunch);
-                    transform.position = enemyPos;
                     ScoreManager.instance.AddCombo();
                     Debug.Log("Inimigo derrotado!");
                 }
                 else
                 {
-                    // Inimigo ainda está vivo (inimigos com mais vida)
                     AudioManager.instance?.PlaySFXAudioMixer(SFX.PlayerHitPunch);
                     ScoreManager.instance.AddCombo();
                     Debug.Log($"Inimigo atingido! Vida restante: {enemy.GetCurrentHealth()}");
@@ -90,10 +114,13 @@ public class PlayerController : MonoBehaviour
             }
             else
             {
-                // Fallback para o comportamento antigo (caso ainda existam inimigos sem o script Enemy)
+                // Fallback do sistema antigo (sem o script Enemy)
+                Vector3 enemyPos = hit.collider.transform.position;
+                Vector3 targetPos = new Vector3(enemyPos.x - (direction.x * attackOffset), transform.position.y, transform.position.z);
+
                 Destroy(hit.collider.gameObject);
                 AudioManager.instance?.PlaySFXAudioMixer(SFX.PlayerHitPunch);
-                transform.position = hit.collider.transform.position;
+                transform.position = targetPos;
                 ScoreManager.instance.AddCombo();
                 Debug.Log("Inimigo atingido (sistema antigo)!");
             }
@@ -107,5 +134,12 @@ public class PlayerController : MonoBehaviour
             Destroy(tempVFX, 0.7f);
             Debug.Log("Errou o golpe!");
         }
+    }
+    // Essa corrotina liga a invulnerabilidade, espera os milissegundos e desliga
+    public System.Collections.IEnumerator IFramesRoutine()
+    {
+        isInvulnerable = true;
+        yield return new WaitForSeconds(invulnerabilityTime);
+        isInvulnerable = false;
     }
 }

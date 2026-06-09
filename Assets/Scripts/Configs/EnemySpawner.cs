@@ -89,9 +89,13 @@ public class EnemySpawner : MonoBehaviour
         int side = Random.Range(0, 2);
         float direction = (side == 0) ? -1f : 1f;
 
+        // NOVIDADE AQUI: Adiciona uma variação aleatória de distância (-1.5 a 1.5)
+        // Isso impede que nasçam no exato mesmo pixel.
+        float randomOffset = Random.Range(-1.5f, 1.5f);
+
         // Calcula a posição de spawn
         Vector3 spawnPos = new Vector3(
-            player.position.x + (direction * spawnDistance),
+            player.position.x + (direction * (spawnDistance + randomOffset)),
             player.position.y,
             0
         );
