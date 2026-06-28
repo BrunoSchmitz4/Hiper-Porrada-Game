@@ -12,11 +12,14 @@ public class PlayerController : MonoBehaviour
     public float invulnerabilityTime = 0.2f; // 0.2 segundos de invulnerabilidade
 
     [Header("Combate")]
-    public float attackOffset = 1.0f; // Dist‚ncia que o player vai parar antes de encostar no inimigo
+    public float attackOffset = 1.0f; // Dist√¢ncia que o player vai parar antes de encostar no inimigo
 
     public float attackRange = 3.0f;
     public int attackDamage = 1;
     public LayerMask enemyLayer;
+
+    public float missCooldown = 1.0f; // Tempo de cooldown
+    private bool isOnMissCooldown = false; // Flag de cooldown
 
     private Vector3 currentScale;
 
@@ -26,11 +29,13 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        // N„o permite input se o jogo est· pausado ou acabou
+        // N√£o permite input se o jogo est√° pausado ou acabou
         //if (GameManager.instance != null && (GameManager.instance.isPaused || GameManager.instance.isGameOver))
         //    return;
 
         if (Keyboard.current == null) return;
+
+        if (isOnMissCooldown) return;
 
         if (Keyboard.current.leftArrowKey.wasPressedThisFrame)
         {
@@ -48,9 +53,9 @@ public class PlayerController : MonoBehaviour
     {
         if (animator != null)
         {
-            // 1. Limpa qualquer animaÁ„o stackada antes
+            // 1. Limpa qualquer anima√ß√£o stackada antes
             animator.ResetTrigger("Attack");
-            // 2. ForÁa a animaÁ„o a reiniciar do zero (0f) 
+            // 2. For√ßa a anima√ß√£o a reiniciar do zero (0f) 
             animator.Play("Player_ATTACK", -1, 0f);
         }
 
@@ -83,15 +88,15 @@ public class PlayerController : MonoBehaviour
             {
                 Vector3 enemyPos = hit.collider.transform.position;
 
-                // NOVIDADE: Calcula a posiÁ„o ideal para o Player parar.
-                // Mantemos o Y e o Z do Player, e mudamos apenas o X baseado na direÁ„o do ataque e no offset.
+                // NOVIDADE: Calcula a posi√ß√£o ideal para o Player parar.
+                // Mantemos o Y e o Z do Player, e mudamos apenas o X baseado na dire√ß√£o do ataque e no offset.
                 Vector3 targetPos = new Vector3(
                     enemyPos.x - (direction.x * attackOffset),
                     transform.position.y,
                     transform.position.z
                 );
 
-                // O Player se move para a posiÁ„o IDEAL em TODOS os acertos, seja kill ou n„o.
+                // O Player se move para a posi√ß√£o IDEAL em TODOS os acertos, seja kill ou n√£o.
                 transform.position = targetPos;
 
                 // Aplica o dano e a invulnerabilidade
@@ -128,6 +133,7 @@ public class PlayerController : MonoBehaviour
         else
         {
             // Errou o golpe
+            StartCoroutine(MissCooldownRoutine());
             ScoreManager.instance.DelCombo();
             AudioManager.instance?.PlaySFXAudioMixer(SFX.PlayerLoseCombo);
             GameObject tempVFX = Instantiate(floatingTextPrefab, textPoint.position, Quaternion.identity);
@@ -141,5 +147,12 @@ public class PlayerController : MonoBehaviour
         isInvulnerable = true;
         yield return new WaitForSeconds(invulnerabilityTime);
         isInvulnerable = false;
+    }
+
+    public System.Collections.IEnumerator MissCooldownRoutine()
+    {
+        isOnMissCooldown = true;
+        yield return new WaitForSeconds(missCooldown);
+        isOnMissCooldown = false;
     }
 }
