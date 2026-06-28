@@ -153,8 +153,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0.0002594, y: -60.92}
-  m_SizeDelta: {x: 1128, y: 119.83}
+  m_AnchoredPosition: {x: -0.00011063, y: -60.919983}
+  m_SizeDelta: {x: 900, y: 119.83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &293093587
 MonoBehaviour:
@@ -178,7 +178,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 94d1f435b61117c49937401e608492e7, type: 3}
-    m_FontSize: 64
+    m_FontSize: 32
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -386,8 +386,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -0.0002594, y: -60.92}
-  m_SizeDelta: {x: 1128, y: 119.83}
+  m_AnchoredPosition: {x: -0.00011063, y: -60.919983}
+  m_SizeDelta: {x: 900, y: 119.83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &820089384
 MonoBehaviour:
@@ -563,6 +563,87 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d195fbe4a98bae24c957866936acfdde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DamageText
+--- !u!1001 &889811653
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -2253911629886400664, guid: b4557bbab1f77084a9adf157b34dc900, type: 3}
+      propertyPath: m_Name
+      value: CCenarioLIZOazul_Ase
+      objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: b4557bbab1f77084a9adf157b34dc900, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -6976901631805375176, guid: 6d31ede29fba6c746ad680322542ab88, type: 3}
+    - target: {fileID: 3626916397498700004, guid: b4557bbab1f77084a9adf157b34dc900, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3626916397498700004, guid: b4557bbab1f77084a9adf157b34dc900, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: b4557bbab1f77084a9adf157b34dc900, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: b4557bbab1f77084a9adf157b34dc900, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: b4557bbab1f77084a9adf157b34dc900, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: b4557bbab1f77084a9adf157b34dc900, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 346
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: b4557bbab1f77084a9adf157b34dc900, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 205
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: b4557bbab1f77084a9adf157b34dc900, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: b4557bbab1f77084a9adf157b34dc900, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: b4557bbab1f77084a9adf157b34dc900, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: b4557bbab1f77084a9adf157b34dc900, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: b4557bbab1f77084a9adf157b34dc900, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: b4557bbab1f77084a9adf157b34dc900, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: b4557bbab1f77084a9adf157b34dc900, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7878350319992209165, guid: b4557bbab1f77084a9adf157b34dc900, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: -8435245712485981826, guid: b4557bbab1f77084a9adf157b34dc900, type: 3}
 --- !u!1 &1049216200
 GameObject:
   m_ObjectHideFlags: 0
@@ -1057,7 +1138,7 @@ Transform:
   m_GameObject: {fileID: 1454442406}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 346, y: 203.602, z: 90}
+  m_LocalPosition: {x: 346, y: 204.2, z: 90}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -1078,6 +1159,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   floatingTextPrefab: {fileID: 2155670145528879725, guid: a5b386e24f9effb47bd20571a9b3029b, type: 3}
   textPoint: {fileID: 630652428}
+  isInvulnerable: 0
+  invulnerabilityTime: 0.2
+  attackOffset: 1
   attackRange: 4
   attackDamage: 1
   enemyLayer:
@@ -1198,8 +1282,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -13.3, y: -277.01}
-  m_SizeDelta: {x: 1111.4, y: 551.99}
+  m_AnchoredPosition: {x: -0.0011444, y: -253}
+  m_SizeDelta: {x: 900, y: 506.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1609056633
 MonoBehaviour:
@@ -1223,7 +1307,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 94d1f435b61117c49937401e608492e7, type: 3}
-    m_FontSize: 64
+    m_FontSize: 32
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -1562,7 +1646,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 3
+  orthographic size: 2
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1651,3 +1735,4 @@ SceneRoots:
   - {fileID: 1950880245}
   - {fileID: 1454442407}
   - {fileID: 840060945}
+  - {fileID: 889811653}

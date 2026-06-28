@@ -7,6 +7,9 @@ public abstract class Enemy : MonoBehaviour
     [SerializeField] protected int maxHealth = 1;
     [SerializeField] protected int scoreValue = 10;
 
+    // NOVIDADE: A distância de parada configurável no Inspector
+    [SerializeField] protected float stopDistance = 0.8f;
+
     protected int currentHealth;
     protected Transform player;
     protected Vector3 currentScale;
@@ -37,11 +40,21 @@ public abstract class Enemy : MonoBehaviour
     // Move o inimigo em direção ao player
     protected virtual void MoveTowardsPlayer()
     {
-        transform.position = Vector2.MoveTowards(
-            transform.position,
-            player.position,
-            speed * Time.deltaTime
-        );
+        // Calcula a distância APENAS no eixo X (ignora a altura/eixo Y)
+        float distanceToPlayerX = Mathf.Abs(transform.position.x - player.position.x);
+
+        // Só move em direção ao player se a distância horizontal for MAIOR que o limite configurado
+        if (distanceToPlayerX > stopDistance)
+        {
+            // Cria a posição alvo com o X do player, mas mantendo a altura Y original do inimigo
+            Vector2 targetPos = new Vector2(player.position.x, transform.position.y);
+
+            transform.position = Vector2.MoveTowards(
+                transform.position,
+                targetPos,
+                speed * Time.deltaTime
+            );
+        }
     }
 
     // Vira o sprite do inimigo na direção do player
